@@ -12,4 +12,5 @@ public class DemoController {
     public String getUsers() {
         return "User 1, User2, User3";
     }
+    getmapping(controller)
 }
