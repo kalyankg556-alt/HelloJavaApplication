@@ -17,4 +17,9 @@ public class HealthController {
     public String getServerChild() {
         return "No server child available for the moment";
     }
+
+    @GetMapping("/server-details")
+    public String getServerDetails() {
+        return "Server name  - 123455";
+    }
 }

@@ -33,6 +33,7 @@ public class UserController {
     @DeleteMapping
     public void delete(@RequestParam("id") String id) {
         // Delete the record
+        System.out.println("delete the user");
     }
 
     @PostMapping("/routers/{routerMacAddress}/activateWifi/{code}")
