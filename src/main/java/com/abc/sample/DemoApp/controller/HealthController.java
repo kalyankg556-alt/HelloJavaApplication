@@ -12,4 +12,9 @@ public class HealthController {
     public String health() {
         return "Application is working fine";
     }
+
+    @GetMapping("/server-details")
+    public String getServerDetails() {
+        return "Server name  - 123455";
+    }
 }
