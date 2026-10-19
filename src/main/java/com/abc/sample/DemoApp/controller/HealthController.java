@@ -12,4 +12,9 @@ public class HealthController {
     public String health() {
         return "Application is working fine";
     }
+
+    @GetMapping("/server-child")
+    public String getServerChild() {
+        return "No server child available for the moment";
+    }
 }
