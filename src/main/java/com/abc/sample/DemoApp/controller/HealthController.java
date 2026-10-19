@@ -13,6 +13,11 @@ public class HealthController {
         return "Application is working fine";
     }
 
+    @GetMapping("/server-child")
+    public String getServerChild() {
+        return "No server child available for the moment";
+    }
+
     @GetMapping("/server-details")
     public String getServerDetails() {
         return "Server name  - 123455";
